@@ -1,4 +1,5 @@
 import java.text.DecimalFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -205,5 +206,28 @@ public class JavaElements {
         Set<Integer> uniqueNumbers = numbers5.stream()
                 .collect(Collectors.toSet());
         // uniqueNumbers: [1, 2, 3, 4, 5]
+
+        /* ------------- Time formats ------------- */
+        /*
+            Patrón: "hh:mm:ssa"
+            Descripción: Representa horas en formato de 12 horas (de 01 a 12), minutos y segundos, seguidos por el indicador AM/PM.
+            Ejemplo: 09:30:45PM
+            Significado:
+            hh: Horas en formato de 12 horas (de 01 a 12).
+            mm: Minutos.
+            ss: Segundos.
+            a: Indicador AM/PM.
+         */
+        DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("hh:mm:ssa");
+        /*
+            Patrón: "HH:mm:ss"
+            Descripción: Representa horas en formato de 24 horas (de 00 a 23), minutos y segundos.
+            Ejemplo: 23:15:30
+            Significado:
+            HH: Horas en formato de 24 horas (de 00 a 23).
+            mm: Minutos.
+            ss: Segundos.
+         */
+        DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("HH:mm:ss");
     }
 }

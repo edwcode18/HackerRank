@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db6b8d0-a7b6-464b-8415-e12213a587cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MiniMaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FindTheMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TimeConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JavaElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaElements.java" afterDir="false" />
     </list>
@@ -37,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TimeConversion.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -51,6 +53,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TimeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TimeConversion" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TimeConversion" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703259025370</updated>
       <workItem from="1703259027913" duration="3711000" />
-      <workItem from="1703262832757" duration="2110000" />
+      <workItem from="1703262832757" duration="5002000" />
     </task>
     <servers />
   </component>
