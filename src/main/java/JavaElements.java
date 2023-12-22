@@ -162,6 +162,9 @@ public class JavaElements {
         int sum = values.stream()
                 .reduce(0, Integer::sum);
         // sum: 15
+        long sum2 = values.stream()
+                .mapToLong(Long::valueOf)
+                .sum();
 
         // Encontrar el Elemento Mínimo:
         List<Integer> numbers3 = Arrays.asList(5, 3, 8, 2);
@@ -180,7 +183,7 @@ public class JavaElements {
 
         // Reducción Paralela (Suma):
         List<Integer> values2 = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-        int sum2 = values2.parallelStream()
+        int sum3 = values2.parallelStream()
                 .reduce(0, Integer::sum);
         // sum: 55
 
