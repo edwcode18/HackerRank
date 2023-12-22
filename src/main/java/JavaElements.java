@@ -56,6 +56,18 @@ public class JavaElements {
         treeMap.put("A", 1);
         String firstKey = treeMap.firstKey(); // Primera clave (A)
 
+        // XOR: para encontrar el número que no se repite
+        /*
+            Este enfoque XOR funciona ya que la operación XOR (^) entre dos números iguales es
+            cero (0 ^ 0 = 0, 1 ^ 1 = 0), y XOR con cero y un número devuelve el mismo número (0 ^ n = n, n ^ 0 = n).
+            Al hacer un XOR en todos los elementos de la lista, los pares se cancelarán entre sí y al final solo quedará el número único.
+         */
+        List<Integer> a = new ArrayList<>();
+        int result = 0;
+        for (int num : a) {
+            result ^= num;
+        }
+
         /* ------------- Funciones útiles ------------- */
 
         // String.split(): Dividir una cadena en función de un delimitador.
@@ -197,7 +209,7 @@ public class JavaElements {
 
         // Juntar Elementos en una Cadena:
         List<String> fruits = Arrays.asList("apple", "banana", "orange");
-        String result = fruits.stream()
+        String result2 = fruits.stream()
                 .collect(Collectors.joining(", "));
         // result: "apple, banana, orange"
 
