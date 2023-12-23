@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db6b8d0-a7b6-464b-8415-e12213a587cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FlippingTheMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZigZagSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +37,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CountingSort1.executor": "Run",
-    "Application.FlippingTheMatrix.executor": "Run",
+    "Application.FlippingTheMatrix.executor": "Debug",
     "Application.TimeConversion.executor": "Run",
+    "Application.ZigZagSequence.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -54,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FlippingTheMatrix">
+  <component name="RunManager" selected="Application.ZigZagSequence">
     <configuration name="CountingSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountingSort1" />
       <module name="HackerRank" />
@@ -76,8 +77,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZigZagSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZigZagSequence" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZigZagSequence" />
         <item itemvalue="Application.FlippingTheMatrix" />
         <item itemvalue="Application.CountingSort1" />
         <item itemvalue="Application.TimeConversion" />
@@ -101,7 +110,7 @@
       <updated>1703259025370</updated>
       <workItem from="1703259027913" duration="3711000" />
       <workItem from="1703262832757" duration="10555000" />
-      <workItem from="1703331417555" duration="1858000" />
+      <workItem from="1703331417555" duration="4141000" />
     </task>
     <servers />
   </component>
@@ -109,15 +118,6 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FlippingTheMatrix.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="arr.get(i)" language="JAVA" />
