@@ -68,6 +68,12 @@ public class JavaElements {
             result ^= num;
         }
 
+        // Ordenar un string
+        String inputString = "";
+        char[] charArray = inputString.toCharArray();
+        Arrays.sort(charArray);
+        String sortedString = new String(charArray);
+
         /* ------------- Funciones útiles ------------- */
 
         // String.split(): Dividir una cadena en función de un delimitador.
