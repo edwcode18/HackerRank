@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db6b8d0-a7b6-464b-8415-e12213a587cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CaesarCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PalindromeIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,9 +36,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.CaesarCipher.executor": "Run",
+    "Application.CaesarCipher.executor": "Debug",
     "Application.CountingSort1.executor": "Run",
     "Application.FlippingTheMatrix.executor": "Debug",
+    "Application.PalindromeIndex.executor": "Debug",
     "Application.TimeConversion.executor": "Run",
     "Application.ZigZagSequence.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -56,7 +57,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CaesarCipher">
+  <component name="RunManager" selected="Application.PalindromeIndex">
     <configuration name="CaesarCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CaesarCipher" />
       <module name="HackerRank" />
@@ -78,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TimeConversion" />
+    <configuration name="PalindromeIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PalindromeIndex" />
       <module name="HackerRank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeIndex" />
         <item itemvalue="Application.CaesarCipher" />
         <item itemvalue="Application.ZigZagSequence" />
         <item itemvalue="Application.FlippingTheMatrix" />
         <item itemvalue="Application.CountingSort1" />
-        <item itemvalue="Application.TimeConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +120,7 @@
       <updated>1703259025370</updated>
       <workItem from="1703259027913" duration="3711000" />
       <workItem from="1703262832757" duration="10555000" />
-      <workItem from="1703331417555" duration="12327000" />
+      <workItem from="1703331417555" duration="13673000" />
     </task>
     <servers />
   </component>
