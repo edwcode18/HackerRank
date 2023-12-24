@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db6b8d0-a7b6-464b-8415-e12213a587cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GridChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RecursiveDigitSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     "Application.FlippingTheMatrix.executor": "Debug",
     "Application.GridChallenge.executor": "Debug",
     "Application.PalindromeIndex.executor": "Debug",
+    "Application.RecursiveDigitSum.executor": "Run",
     "Application.TimeConversion.executor": "Run",
     "Application.ZigZagSequence.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -59,16 +59,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GridChallenge">
+  <component name="RunManager" selected="Application.RecursiveDigitSum">
     <configuration name="CaesarCipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CaesarCipher" />
-      <module name="HackerRank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlippingTheMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FlippingTheMatrix" />
       <module name="HackerRank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,6 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecursiveDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursiveDigitSum" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZigZagSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ZigZagSequence" />
       <module name="HackerRank" />
@@ -97,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursiveDigitSum" />
         <item itemvalue="Application.GridChallenge" />
         <item itemvalue="Application.PalindromeIndex" />
         <item itemvalue="Application.CaesarCipher" />
         <item itemvalue="Application.ZigZagSequence" />
-        <item itemvalue="Application.FlippingTheMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +122,7 @@
       <updated>1703259025370</updated>
       <workItem from="1703259027913" duration="3711000" />
       <workItem from="1703262832757" duration="10555000" />
-      <workItem from="1703331417555" duration="15503000" />
+      <workItem from="1703331417555" duration="17007000" />
     </task>
     <servers />
   </component>
@@ -141,8 +141,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="originalAlphabet.indexOf(letter)" language="JAVA" />
-        <watch expression="alphabet.get(originalAlphabet.indexOf(letter))" language="JAVA" />
+        <watch expression="n.length()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
