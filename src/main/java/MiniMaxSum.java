@@ -15,13 +15,11 @@ public class MiniMaxSum {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        ResultMiniMaxSum.miniMaxSum(arr);
+        miniMaxSum(arr);
 
         bufferedReader.close();
     }
-}
 
-class ResultMiniMaxSum{
     public static void miniMaxSum(List<Integer> arr) {
         Collections.sort(arr);
         long sum = arr.stream().mapToLong(Long::valueOf).sum();
@@ -30,4 +28,5 @@ class ResultMiniMaxSum{
         System.out.println(minSum + " " + maxSum);
     }
 }
+
 

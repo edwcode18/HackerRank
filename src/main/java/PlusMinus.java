@@ -16,19 +16,10 @@ public class PlusMinus {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        Result.plusMinus(arr);
+        plusMinus(arr);
 
         bufferedReader.close();
     }
-}
-
-class Result {
-
-    /*
-     * Complete the 'plusMinus' function below.
-     *
-     * The function accepts INTEGER_ARRAY arr as parameter.
-     */
 
     public static void plusMinus(List<Integer> arr) {
         double positiveNumbers = 0, negativeNumbers = 0, zeroNumbers = 0;
@@ -43,5 +34,5 @@ class Result {
         System.out.println(negativeNumbers > 0 ? (negativeNumbers / arr.size()) : 0);
         System.out.println(zeroNumbers > 0 ? (zeroNumbers / arr.size()) : 0);
     }
-
 }
+
