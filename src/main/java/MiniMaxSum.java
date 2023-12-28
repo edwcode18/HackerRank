@@ -22,10 +22,19 @@ public class MiniMaxSum {
 
     public static void miniMaxSum(List<Integer> arr) {
         Collections.sort(arr);
+        long sum = 0;
+        for (int i = 1; i < arr.size() - 1; i++) {
+            sum += arr.get(i);
+        }
+        System.out.println((sum + arr.get(0)) + " " + (sum + arr.get(arr.size() - 1)));
+        /*
+        Collections.sort(arr);
         long sum = arr.stream().mapToLong(Long::valueOf).sum();
         long minSum = sum - arr.get(arr.size() - 1);
         long maxSum = sum - arr.get(0);
         System.out.println(minSum + " " + maxSum);
+
+         */
     }
 }
 
