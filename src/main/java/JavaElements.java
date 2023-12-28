@@ -7,6 +7,9 @@ public class JavaElements {
     public static void main(String[] args) {
         /* ------------- Estructura de Datos ------------- */
 
+        // Inicializar datos de un list y establecer datos
+        List<Integer> listInicializada = new ArrayList<>(Collections.nCopies(10, 0)); // tamanio 10 y todos sus elementos con el valor de 0
+
         // ArrayList: Almacenamiento dinámico de elementos.
         ArrayList<Integer> list = new ArrayList<>();
         list.add(10);
