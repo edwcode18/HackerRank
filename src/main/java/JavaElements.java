@@ -26,9 +26,11 @@ public class JavaElements {
         int front = queue.peek(); // Obtener el primer elemento de la cola (5)
 
         // PriorityQueue: Cola de prioridad para acceso eficiente al elemento mínimo o máximo.
+        // Se ordena automaticamente
         PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.peek(); // Obtiene el elemento mínimo sin eliminarlo de la cola
         pq.add(5);
-        pq.add(10);
+        pq.offer(10); // También agrega el elemento pero devuelve false si la cola esta llena
         int min = pq.poll(); // Eliminar y obtener el elemento mínimo (5)
 
         // Stack (Pila): Implementación de pila.
@@ -168,6 +170,11 @@ public class JavaElements {
                 .filter(n -> n % 2 == 0)
                 .collect(Collectors.toList());
         // evenNumbers: [2, 4]
+
+        // Condición
+        List<Integer> numbersCondicional = Arrays.asList(1, 2, 3, 4, 5);
+        boolean filtroCondicional = numbersCondicional.stream()
+                .allMatch(n -> n > 5);
 
         // Mapeo de Elementos:
         List<String> names = Arrays.asList("John", "Emily", "Tom");

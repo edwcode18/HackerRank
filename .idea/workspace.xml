@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db6b8d0-a7b6-464b-8415-e12213a587cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JesseAndCookies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,8 @@
     "Application.CountingSort1.executor": "Run",
     "Application.FlippingTheMatrix.executor": "Debug",
     "Application.GridChallenge.executor": "Debug",
-    "Application.Pairs.executor": "Run",
+    "Application.JesseAndCookies.executor": "Debug",
+    "Application.Pairs.executor": "Debug",
     "Application.PalindromeIndex.executor": "Debug",
     "Application.RecursiveDigitSum.executor": "Run",
     "Application.TimeConversion.executor": "Run",
@@ -62,7 +64,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Pairs">
+  <component name="RunManager" selected="Application.JesseAndCookies">
     <configuration name="BalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BalancedBrackets" />
       <module name="HackerRank" />
@@ -70,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GridChallenge" />
+    <configuration name="JesseAndCookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JesseAndCookies" />
       <module name="HackerRank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JesseAndCookies" />
         <item itemvalue="Application.Pairs" />
         <item itemvalue="Application.BalancedBrackets" />
         <item itemvalue="Application.TruckTour" />
         <item itemvalue="Application.RecursiveDigitSum" />
-        <item itemvalue="Application.GridChallenge" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +131,7 @@
       <workItem from="1703598518237" duration="41000" />
       <workItem from="1703600033385" duration="4294000" />
       <workItem from="1703609554800" duration="154000" />
-      <workItem from="1703703730464" duration="5492000" />
+      <workItem from="1703703730464" duration="17001000" />
     </task>
     <servers />
   </component>
@@ -148,8 +150,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="brackets.peek()" language="JAVA" />
-        <watch expression="arrayBrackets[i]" language="JAVA" />
+        <watch expression="queue.peek()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
