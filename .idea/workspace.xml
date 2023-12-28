@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db6b8d0-a7b6-464b-8415-e12213a587cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TreePreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NoPrefixSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TreeHuffmanDecoding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,10 +43,12 @@
     "Application.FlippingTheMatrix.executor": "Debug",
     "Application.GridChallenge.executor": "Debug",
     "Application.JesseAndCookies.executor": "Debug",
+    "Application.NoPrefixSet.executor": "Run",
     "Application.Pairs.executor": "Debug",
     "Application.PalindromeIndex.executor": "Debug",
     "Application.RecursiveDigitSum.executor": "Run",
     "Application.TimeConversion.executor": "Run",
+    "Application.TreeHuffmanDecoding.executor": "Run",
     "Application.TruckTour.executor": "Debug",
     "Application.ZigZagSequence.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -63,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.JesseAndCookies">
+  <component name="RunManager" selected="Application.NoPrefixSet">
     <configuration name="BalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BalancedBrackets" />
       <module name="HackerRank" />
@@ -78,6 +81,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NoPrefixSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NoPrefixSet" />
+      <module name="HackerRank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Pairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pairs" />
       <module name="HackerRank" />
@@ -85,15 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursiveDigitSum" />
-      <module name="HackerRank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TruckTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TruckTour" />
+    <configuration name="TreeHuffmanDecoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeHuffmanDecoding" />
       <module name="HackerRank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NoPrefixSet" />
+        <item itemvalue="Application.TreeHuffmanDecoding" />
         <item itemvalue="Application.JesseAndCookies" />
         <item itemvalue="Application.Pairs" />
         <item itemvalue="Application.BalancedBrackets" />
-        <item itemvalue="Application.TruckTour" />
-        <item itemvalue="Application.RecursiveDigitSum" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +133,7 @@
       <workItem from="1703598518237" duration="41000" />
       <workItem from="1703600033385" duration="4294000" />
       <workItem from="1703609554800" duration="154000" />
-      <workItem from="1703703730464" duration="19752000" />
+      <workItem from="1703703730464" duration="23089000" />
     </task>
     <servers />
   </component>
@@ -147,10 +150,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="queue.peek()" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
