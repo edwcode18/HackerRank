@@ -145,6 +145,9 @@ public class JavaElements {
         String output = String.format("Tengo %d manzanas.", apples);
         // output: "Tengo 10 manzanas."
 
+        // Decimal a binario
+        Integer.toBinaryString(10);
+
         /* ------------- Formateo de Números Enteros y Decimales ------------- */
 
         // Números Enteros (printf):
