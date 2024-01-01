@@ -148,6 +148,9 @@ public class JavaElements {
         // Decimal a binario
         Integer.toBinaryString(10);
 
+        // Binario a decimal
+        Long.parseLong("1001", 2);
+
         /* ------------- Formateo de Números Enteros y Decimales ------------- */
 
         // Números Enteros (printf):
