@@ -97,6 +97,9 @@ public class JavaElements {
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 3));
         Collections.reverse(list2); // [3, 2, 1]
 
+        // Best reverse
+        Collections.sort(list2, Collections.reverseOrder());
+
         // StringBuffer / StringBuilder: Manipulación eficiente de cadenas mutables.
         StringBuilder sb = new StringBuilder("Hola");
         sb.append(" Mundo"); // "Hola Mundo"
